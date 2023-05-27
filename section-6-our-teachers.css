@@ -1,0 +1,155 @@
+#our-teachers-section {}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.our-teachers-mainbox {
+    text-align: center;
+}
+
+.hr-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.hr-heading hr {
+    width: 70px;
+    height: 1;
+    background-color: aquamarine;
+}
+.meet-teachers{
+    padding: 20px;
+}
+.meet-teachers h2{
+    font-family: Handlee, cursive;
+    font-size: 30px;
+    color: aquamarine;
+}
+.hr-heading h3 {
+    color: aquamarine;
+}
+
+.teachers-img-mainbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+
+.teachers-img-box1 {
+    width: 25%;
+}
+
+.teachers-img-inner-box1 {
+    padding: 0 20px;
+}
+
+.position-box {
+    position: relative;
+    top: 0;
+    width: 100%;
+    /* height: 215px; */
+}
+
+.teachers-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: aqua;
+    border-radius: 50%;
+    /* height: 212px; */
+}
+
+.teachers-img img {
+    width: 100%;
+
+    border-radius: 50%;
+}
+.position-box:hover img{
+    opacity: 0.5;
+}
+.teachers-img-icons {
+    position: relative;
+    top: 110px;
+    left: 0px;
+    opacity: 0;
+}
+.position-box:hover .teachers-img-icons{
+    opacity: 1;
+}
+.t-icon {
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.t-icon:hover {
+    color: #fff;
+}
+
+.teachers-img-content {
+    text-align: center;
+}
+
+.teachers-img-content h3 {
+    padding: 10px 0;
+    font-family: Handlee, cursive;
+}
+.teachers-img-content h6{
+    font-family: italic;
+    font-size: 12px;
+}
+@media only screen and (min-device-width:1px) and (max-device-width:768px) {
+    .teachers-img-mainbox{
+        flex-direction: column;
+    }
+    .teachers-img-box1{
+        width: 100%;
+    }
+
+    .teachers-img{
+        position: relative;
+        top: 0;
+    }
+    .teachers-img-icons{
+        top: -280px;
+    }
+    .teachers-img-inner-box1{
+        padding: 20px 0;
+    }
+    .teachers-img-content h3{
+        font-size: 30px;
+    }
+    .teachers-img-content h6{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-device-width:769px) and (max-device-width:992px) {
+    .teachers-img-mainbox{
+        flex-direction: row;
+    }
+    .teachers-img-box1{
+        width: 50%;
+    }
+
+    .teachers-img{
+        position: relative;
+        top: 0;
+    }
+    .teachers-img-icons{
+        top: -180px;
+    }
+    .teachers-img-inner-box1{
+        padding: 20px;
+    }
+    .teachers-img-content h3{
+        font-size: 30px;
+    }
+    .teachers-img-content h6{
+        font-size: 15px;
+    }
+}

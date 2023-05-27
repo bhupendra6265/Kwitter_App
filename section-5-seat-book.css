@@ -1,0 +1,151 @@
+ /* #seat-book {} */
+
+ .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.seat-book-mainbox {
+    display: flex;
+    padding: 50px 0;
+}
+
+.seat-book-box1 {
+    width: 50%;
+}
+.seat-book-inner-box1{
+    padding: 0 20px;
+}
+
+.bg-color {
+    background-color: aqua;
+
+}
+
+.seat-book-main-heading {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* color: aqua; */
+}
+
+.seat-book-main-heading hr {
+    width: 100px;
+    height: 1px;
+    background-color: aqua;
+    margin-left: 8px;
+}
+
+.book-seat-for-kid {
+    font-family: Handlee, cursive;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.book-seat-for-kid-pra {
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.book-seat-inner-content {
+    display: flex;
+    padding: 10px 0;
+}
+
+.book-seat-line {
+    padding: 0 0 0 10px;
+    font-size: 10px;
+}
+
+.book-seat-icons {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.book-now {
+    margin-top: 30px;
+}
+
+.book-now a {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: aqua;
+    text-decoration: none;
+}
+
+.h1 {
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+}
+
+.h1 h1 {
+    padding: 10px 0;
+    font-size: 40px;
+    font-family: Handlee, cursive;
+}
+
+.heading-content {
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.select {
+    text-align: center;
+}
+
+.select select {
+    height: 40px;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.anchor-book {
+    text-align: center;
+    padding: 25px 0 60px 0;
+}
+
+.anchor-book a {
+    text-decoration: none;
+    background-color: grey;
+    padding: 20px 98px;
+    border-radius: 30px;
+}
+
+@media only screen and (min-device-width:1px) and (max-device-width:992px) {
+    .container {
+        width: 100%;    
+    }
+
+    .seat-book-mainbox {
+        flex-direction: column;
+    }
+
+    .seat-book-box1 {
+        width: 100%;
+    }
+    .seat-book-inner-box1{
+        padding: 20px 100px;
+    }
+    .anchor-book a{
+        padding: 20px 135px;
+    }
+}
+@media only screen and (min-device-width:993) and (max-device-width:1200px) {
+    .container{
+        width: 80%;
+    }
+    .seat-book-mainbox{
+        flex-direction: row;
+    }
+    .seat-book-box1{
+        width: 50%;
+    }
+}

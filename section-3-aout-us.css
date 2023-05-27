@@ -1,0 +1,154 @@
+/* #about-us-section {} */
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .about-us-mainbox {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+
+        .mainbox-img {
+            width: 50%;
+        }
+
+        .mainbox-img img {
+            width: 100%;
+        }
+
+        .mainbox-content {
+            width: 50%;
+        }
+
+        /* .mainbox-inner-content {} */
+
+        .about-us-heading {
+            display: flex;
+            padding: 50px 0 0 0;
+        }
+
+        .about-us-heading span {
+            color: aqua;
+
+        }
+
+        .about-us-heading hr {
+            width: 70px;
+            height: 1px;
+            background: aqua;
+            margin: 6px 12px;
+        }
+
+        /* .best-school-heading-pragraph {} */
+
+        .best-school-heading-pragraph h1 {
+            font-family: Handlee, cursive;
+            font-size: 39.28px;
+            padding: 35px 0;
+        }
+
+        .best-school-heading-pragraph p {
+            padding: 0 0 50px 0px;
+        }
+
+        .about-2 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .about-img-2 {
+            width: 40%;
+        }
+        .about-img-2 img{
+            width: 97%;
+    height: 95%;
+        }
+        .about-2-content {
+            width: 60%;
+        }
+
+        .about-2-content-learn-more {
+            padding: 50px 0 0 0;
+        }
+
+        .learn-more {
+            text-decoration: none;
+            padding: 10px 30px;
+            border-radius: 30px;
+            background-color: aqua;
+        }
+
+        .about-2-inner-content {
+            display: flex;
+            padding: 10px 0;
+            border-top: 1px solid;
+        }
+        .about-2-content-line h1{
+            font-size: 15px;
+        }
+        .border {
+            border-bottom: 1px solid;
+        }
+
+        .about-2-icons {
+            font-size: 26px;
+            color: aqua;
+        }
+
+        .about-2-content-line {
+            font-size: 13px;
+            padding: 0px 10px;
+        }
+
+        @media (max-width:600px) {
+            .container {
+                width: 100%;
+            }
+
+            .about-us-mainbox {
+                flex-direction: column;
+            }
+
+            .mainbox-img {
+                width: 100%;
+            }
+
+            .mainbox-content {
+                width: 100%;
+            }
+
+            .about-us-heading {
+                padding: 10px 0 0 0;
+            }
+
+            .best-school-heading-pragraph h1 {
+                padding: 15px 0;
+            }
+        }
+        @media (max-width:768px) {
+            .container{
+                width: 100%;
+            }
+            .about-us-mainbox {
+                flex-direction: column;
+            }
+
+            .mainbox-img {
+                width: 100%;
+            }
+
+            .mainbox-content {
+                width: 100%;
+            }
+
+            .about-us-heading {
+                padding: 10px 0 0 0;
+            }
+
+            .best-school-heading-pragraph h1 {
+                padding: 15px 0;
+            }
+        }

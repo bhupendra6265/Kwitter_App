@@ -1,0 +1,165 @@
+/* #popular-classes-section {} */
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .popular-classes-mainbox {
+            padding: 50px 20px;
+        }
+
+        .hr-heading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hr-heading hr {
+            width: 40px;
+            /* height: 1px; */
+            margin: 15px;
+            background: aqua;
+        }
+
+        .hr-heading span {
+            color: aqua;
+            /* font-size: 30px; */
+        }
+
+        .main-heading {
+            text-align: center;
+        }
+
+        .main-heading h1 {
+            font-size: 40px;
+            font-family: Handlee, cursive;
+            /* padding: ; */
+        }
+
+        .main-classes {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .class1 {
+            width: 33%;
+            background-color: azure;
+        }
+
+        .class1-inner {
+            margin: 15px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .class1-content {
+            border-bottom: 1px solid;
+        }
+
+        .drawing {
+            text-align: center;
+            font-family: Handlee, cursive;
+            font-size: 20px;
+            padding: 15PX;
+        }
+
+        .class1-content p {
+            padding: 0 25px 25px;
+            line-height: 25px;
+        }
+
+        .about-classes {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 0;
+            justify-content: center;
+        }
+
+        /* .age {} */
+
+        .age h3 {
+            padding: 15px;
+        }
+        .font{
+            font-weight: 100;
+        }
+        .top {
+            border-top: 1px solid;
+        }
+
+        .right {
+            border-right: 1px solid;
+        }
+
+        .join-now-btn {
+            text-align: center;
+        }
+
+        .join-now {
+            text-decoration: none;
+            background-color: aqua;
+            padding: 10px 30px;
+            border-radius: 30px;
+        }
+
+        @media only screen and (min-device-width:1px) and (max-width:768px) {
+
+            .container {
+                width: 100%;
+            }
+
+            .hr-heading hr {
+                width: 50px;
+                height: 1px;
+                margin: 5px;
+                background: aqua;
+            }
+
+            .hr-heading span {
+                color: aqua;
+                font-size: 10px;
+            }
+
+            .main-heading h1 {
+                font-size: 30px;
+            }
+
+            .main-classes {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .class1 {
+                width: 100%;
+                background-color: azure;
+            }
+
+            .drawing {
+                font-size: 20px;
+                padding: 10PX;
+            }
+
+            .class1-content p {
+                padding: 0 15px 15px;
+            }
+
+        }
+
+        @media (max-width:992px) {
+            .container {
+                width: 90%;
+            }
+
+            .main-classes {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .class1 {
+                width: 100%;
+                background-color: azure;
+            }
+        }
