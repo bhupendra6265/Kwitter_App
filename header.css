@@ -1,0 +1,118 @@
+@import url(section-1.css);
+@import url(section-2-activities.css);
+@import url(section-3-aout-us.css);
+@import url(section-4-popular-classes.css);
+@import url(section-5-seat-book.css);
+@import url(section-footer.css);
+@import url(section-6-our-teachers.css);
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* section{
+             padding: 5px 0;
+        } */
+
+        header {
+            background-color: #f8f9fa
+            /* position: fixed;
+            top: 0; */
+            /* z-index: 1; */
+        }
+
+        .header-links {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .main-heading-kidkinder {
+            margin-left: 0;
+            font-family: Handlee, cursive;
+            font-size: 50px;
+            font-weight: 700;
+            color: #17a2b8;
+            
+        }
+
+        .myicon {
+            position: absolute;
+            top: 12px;
+            right: 0;
+            opacity: 0;
+        }
+
+        .check {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 12px;
+        }
+
+        ul {
+            display: flex;
+            margin-left: auto;
+            padding: 0 20px 0 0;
+        }
+
+        ul li {
+            list-style-type: none;
+            padding: 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+        }
+
+        .join-class {
+            background-color: aqua;
+            padding: 10px 15px;
+            margin-left: 100px;
+        }
+
+        @media only screen and (min-device-width:1px) and (max-device-width:825px) {
+            header {
+                position: relative;
+            }
+
+            .myicon {
+                opacity: 1;
+                position: absolute;
+                top: 8px;
+                right: 20px;
+                cursor: pointer;
+            }
+
+            .check {
+                display: inline-block;
+                position: absolute;
+                top: 8px;
+                right: 20px;
+                opacity: 0;
+                /*  cursor: pointer; */
+            }
+
+            ul {
+                flex-direction: column;
+                margin-left: 0;
+                background-color:ghostwhite;
+                position: absolute;
+                width: 50%;
+                top: -315px;
+                transition: all 0.2s linear;
+            }
+            .join-class{
+                margin-left: 0;
+            }
+
+            .check:checked~ul {
+                top: 80px;
+                /* height: 100vh; */
+            }
+        }
+        @media only screen and (min-device-width:769px) and (max-device-width:992px) {
+            .join-class{
+                margin-left: 0px;
+            }
+        }
+        
